@@ -17,7 +17,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'arrow': '-rotate-45 '
+                        'gray': '#494949',
+                        'light-green': '#c5eb9ae1'
+
                     }
                 }
             }
@@ -61,18 +63,7 @@
                 <div class=" gap-4">
                     <div class="dropdown justify-end items-end">
                         <div tabindex="0" role="button" class="btn btn-ghost shadow-lg rounded-full text-xl lg:hidden">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
+                            <i class="fa-solid fa-bars text-xl"></i>
                         </div>
                         <ul
                           tabindex="0"
@@ -86,11 +77,19 @@
                       </div>
                 <i class="hidden md:block fa-solid fa-magnifying-glass shadow-lg cursor-pointer px-3 py-2 rounded-full text-xl text-gray-400 "></i>
                 <i class="fa-solid fa-cart-shopping hidden md:blockcursor-pointer shadow-lg px-3 py-2 rounded-full text-xl text-gray-400  bg-white"></i>
-                  <a class="btn bg-[#ABEF5F] text-black rounded-full font-semibold text-xl hidden md:block py-1">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-xl  text-white bg-black rounded-full px-2 py-1"></i></a>
+                  <a class="btn bg-[#ABEF5F] text-black rounded-full font-semibold text-xl hidden md:block py-1 ">Book Consult  <i class="ml-2 fa-solid fa-arrow-right -rotate-45 text-xl  text-white bg-black rounded-full px-2 py-1"></i></a>
                 </div>
               </div>
 
         </nav>
+
+        <!-- banner -->
+         <div class=" my-24 text-center p-2 md:p-4 lg:p-0">
+            <img class="mx-auto w-full lg:w-[600px]" src="assets/banner.png" alt="">
+            <h1 class="mt-6 mb-6 text-3xl md:text-6xl font-extrabold">A barn house of this design has a <br> striking appearance</h1>
+            <p class="lg:w-[972px] mx-auto text-[#494949] font-medium leading-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="btn bg-[#c5eb9ae1] rounded-full font-semibold text-xl px-6 pb-4 pt-1  mt-8 ">View Details <i class="ml-1 fa-solid fa-arrow-right -rotate-45 text-xl  text-black bg-[#ABEF5F] rounded-full px-2 py-1 mt-1"></i></button>
+         </div>
 
     </header>
 
